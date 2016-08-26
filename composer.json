@@ -1,0 +1,14 @@
+{
+    "name": "martin-mac/hello",
+    "authors": [
+        {
+            "name": "martinisi michele"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
