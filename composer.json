@@ -1,11 +1,16 @@
 {
     "name": "martin-mac/hello",
+	"description": "My first Composer project",
     "authors": [
         {
-            "name": "martinisi michele"
+            "name": "martinisi michele",
+			"email": "martin.macs@live.com"
         }
     ],
-    "require": {},
+	"minimum-stability": "dev",
+    "require": {
+	    "php": ">=5.3.0"
+	},
     "autoload": {
         "psr-0": {
             "HelloWorld": "src/"
